@@ -1,0 +1,64 @@
+.name{
+    font-size: 2cm;
+    text-align: center;
+    background-color:cadetblue;
+    height: 100px;
+}
+.image{
+    position: absolute;
+    width: 76px;
+    top: 0%;
+    left: 9%;
+}
+*{
+
+    margin: 0%;
+    padding: 0%;
+}
+.navbar{
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+.navbar ul{
+    display:inline-flex;
+    list-style: none;
+}
+.navbar ul li{
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 28px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.navbar ul li:hover{
+    background-color:darkred;
+    border-radius: 5px;
+}
+.about{
+    display: none;
+}
+.about ul{
+    background-color:gray;
+    width: 120%;
+    border-radius: 3px;
+}
+.about ul li a{
+    color:khaki;
+}
+.about ul li a:hover{
+    color: white;
+}
+.navbar ul li:hover .about{
+    display: block;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -29px;
+}
+.navbar ul li:hover .about ul{
+    display: block;
+    margin: 10px;
+}
